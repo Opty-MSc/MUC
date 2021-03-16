@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/NoteViewerFragment"
+    android:name="pt.ulisboa.tecnico.muc.notepad.NoteViewerFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/fragment_margin"
+    android:label="@string/note_viewer_fragment_label"
+    tools:context=".NoteViewerFragment">
+
+    <TextView
+        android:id="@+id/title_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/body_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="66dp"
+        android:gravity="top|start"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:textSize="20sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

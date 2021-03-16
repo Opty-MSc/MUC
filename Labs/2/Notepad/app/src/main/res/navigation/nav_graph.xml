@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AllNotesFragment">
+
+    <fragment
+        android:id="@+id/AllNotesFragment"
+        android:name="pt.ulisboa.tecnico.muc.notepad.AllNotesFragment"
+        android:label="@string/all_notes_fragment_label"
+        tools:layout="@layout/fragment_all_notes_list">
+
+        <action
+            android:id="@+id/action_AllNotesFragment_to_EditNoteFragment"
+            app:destination="@id/EditNoteFragment" />
+
+        <action
+            android:id="@+id/action_AllNotesFragment_to_NoteViewerFragment"
+            app:destination="@id/NoteViewerFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/EditNoteFragment"
+        android:name="pt.ulisboa.tecnico.muc.notepad.EditNoteFragment"
+        android:label="@string/edit_note_fragment_label"
+        tools:layout="@layout/fragment_edit_note">
+
+        <action
+            android:id="@+id/action_EditNoteFragment_to_AllNotesFragment"
+            app:destination="@id/AllNotesFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/NoteViewerFragment"
+        android:name="pt.ulisboa.tecnico.muc.notepad.NoteViewerFragment"
+        android:label="@string/note_viewer_fragment_label"
+        tools:layout="@layout/fragment_note_viewer" />
+
+</navigation>

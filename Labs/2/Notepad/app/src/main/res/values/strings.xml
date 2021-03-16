@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="all_notes_fragment_label">All Notes Fragment</string>
+    <string name="edit_note_fragment_label">Edit Note Fragment</string>
+    <string name="note_viewer_fragment_label">Note Viewer Fragment</string>
+
+    <string name="new_fab_content_description">New Note</string>
+    <string name="save_fab_content_description">Save Note</string>
+    <string name="discard_fab_content_description">Discard Note</string>
+    <string name="edit_fab_content_description">Edit Note</string>
+    <string name="delete_fab_content_description">Delete Note</string>
+    <string name="title_hint">Note Title</string>
+    <string name="body_hint">Note Body</string>
+</resources>

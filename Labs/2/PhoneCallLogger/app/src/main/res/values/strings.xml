@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PhoneCallLogger</string>
+    <string name="phone_calls_title">Incoming Phone Calls</string>
+</resources>

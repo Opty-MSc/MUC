@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AllNotesFragment"
+    android:name="pt.ulisboa.tecnico.muc.notepad.AllNotesFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/fragment_margin"
+    android:label="@string/all_notes_fragment_label"
+    tools:context=".AllNotesFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_notes_rv"
+        android:name="pt.ulisboa.tecnico.muc.notepad.AllNotesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager"
+        tools:context=".AllNotesFragment"
+        tools:listitem="@layout/fragment_all_notes" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/new_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:contentDescription="@string/new_fab_content_description"
+        android:rotation="45"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
