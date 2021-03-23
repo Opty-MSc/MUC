@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BasicThreading</string>
+    <string name="start_counter">Start Counter</string>
+    <string name="stop_counter">Stop Counter</string>
+</resources>
