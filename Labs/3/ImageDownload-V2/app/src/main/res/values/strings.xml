@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Image Download</string>
+    <string name="download_thread">Image Thread Download</string>
+    <string name="download_asynctask">Image Async Download</string>
+    <string name="download_status">Click to Download Image…</string>
+    <string name="download_started">Image Downloading…</string>
+    <string name="download_success">Image Successfully Downloaded!</string>
+    <string name="download_failed">Image Download Failed!</string>
+    <string name="downloaded_image">Downloaded Image</string>
+</resources>
