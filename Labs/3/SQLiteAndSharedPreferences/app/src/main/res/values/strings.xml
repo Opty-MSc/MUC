@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SQLiteAndSharedPreferences</string>
+    <string name="app_preferences">AppPreferences</string>
+    <string name="app_preferences_theme">AppTheme</string>
+    <string name="sqlite">SQLite</string>
+    <string name="insert">Insert</string>
+    <string name="username">Username</string>
+    <string name="age">Age</string>
+    <string name="delete_user">Delete User</string>
+    <string name="shared_preferences">Shared Preferences</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="light_mode">Light Mode</string>
+</resources>
